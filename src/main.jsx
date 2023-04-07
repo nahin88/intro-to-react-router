@@ -64,6 +64,10 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact></Contact>,
       },
+      {
+        path: "*",
+        element: <p>44444444404444444</p>
+      }
     ],
   },
 ]);
